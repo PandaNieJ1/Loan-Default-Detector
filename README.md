@@ -6,4 +6,3 @@ To run MLflow-enabled HistGradientBoosting model hyperparameter tuning:
 <pre>mlflow run . --experiment-name loan -P n_trials=64 -P class_balance=True -P objective_metric=ap -P undersample=False</pre>
 To run streamlit-deployed app locally:
 <pre>streamlit run st-app.py</pre>
-Detailed deployment on GCP can be found at <a href="https://github.com/xfreppihs/streamlit-deploytment-on-GCP">another repo of mine</a>.
